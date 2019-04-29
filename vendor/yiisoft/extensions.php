@@ -237,4 +237,13 @@ return array (
       '@yii/bootstrap4' => $vendorDir . '/yiisoft/yii2-bootstrap4/src',
     ),
   ),
+  'yii2tech/spreadsheet' => 
+  array (
+    'name' => 'yii2tech/spreadsheet',
+    'version' => '1.0.3.0',
+    'alias' => 
+    array (
+      '@yii2tech/spreadsheet' => $vendorDir . '/yii2tech/spreadsheet/src',
+    ),
+  ),
 );

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1f5cda5f0f105a70ce72c6977afe010d",
+    "content-hash": "b7ba76cbb4ef11f589edb7fca93381d2",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -2158,6 +2158,57 @@
                 "shim"
             ],
             "time": "2019-02-06T07:57:58+00:00"
+        },
+        {
+            "name": "yii2tech/spreadsheet",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yii2tech/spreadsheet.git",
+                "reference": "2f2e40c6624e79c509de45723cd126a7dc91b03f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yii2tech/spreadsheet/zipball/2f2e40c6624e79c509de45723cd126a7dc91b03f",
+                "reference": "2f2e40c6624e79c509de45723cd126a7dc91b03f",
+                "shasum": ""
+            },
+            "require": {
+                "phpoffice/phpspreadsheet": "~1.1",
+                "yiisoft/yii2": "~2.0.13"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "yii2tech\\spreadsheet\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Paul Klimov",
+                    "email": "klimov.paul@gmail.com"
+                }
+            ],
+            "description": "Yii2 extension for export to a spreadsheet, e.g. Excel, LibreOffice etc.",
+            "keywords": [
+                "LibreOffice",
+                "excel",
+                "export",
+                "spreadsheet",
+                "xls",
+                "xlsx",
+                "yii2"
+            ],
+            "time": "2019-01-24T15:33:09+00:00"
         },
         {
             "name": "yiisoft/yii2",
