@@ -114,7 +114,7 @@
         "version_normalized": "3.3.1.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/jquery/jquery-dist.git",
+            "url": "git@github.com:jquery/jquery-dist.git",
             "reference": "9e8ec3d10fad04748176144f108d7355662ae75e"
         },
         "dist": {
@@ -231,6 +231,123 @@
             "gfm",
             "markdown",
             "markdown-extra"
+        ]
+    },
+    {
+        "name": "cebe/php-openapi",
+        "version": "0.9.3-beta",
+        "version_normalized": "0.9.3.0-beta",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/cebe/php-openapi.git",
+            "reference": "ddbd551889baf95cb8ea435c358024b8bf17133d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/cebe/php-openapi/zipball/ddbd551889baf95cb8ea435c358024b8bf17133d",
+            "reference": "ddbd551889baf95cb8ea435c358024b8bf17133d",
+            "shasum": ""
+        },
+        "require": {
+            "ext-json": "*",
+            "php": ">=7.1.0",
+            "symfony/yaml": "^4.0"
+        },
+        "require-dev": {
+            "cebe/indent": "*",
+            "friendsofphp/php-cs-fixer": "~2.13.1",
+            "oai/openapi-specification": "3.0.2",
+            "phpunit/phpunit": "^6.5"
+        },
+        "time": "2019-03-22T14:38:37+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "cebe\\openapi\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Carsten Brandt",
+                "email": "mail@cebe.cc",
+                "homepage": "https://cebe.cc/",
+                "role": "Creator"
+            }
+        ],
+        "description": "READ OpenAPI yaml files and make the content accessable in PHP objects.",
+        "homepage": "https://github.com/cebe/php-openapi#readme",
+        "keywords": [
+            "openapi"
+        ]
+    },
+    {
+        "name": "cebe/yii2-openapi",
+        "version": "0.9.0-beta",
+        "version_normalized": "0.9.0.0-beta",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/cebe/yii2-openapi.git",
+            "reference": "14f2a4f7ffd088de57135497d4b79ab4044e4fc0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/cebe/yii2-openapi/zipball/14f2a4f7ffd088de57135497d4b79ab4044e4fc0",
+            "reference": "14f2a4f7ffd088de57135497d4b79ab4044e4fc0",
+            "shasum": ""
+        },
+        "require": {
+            "cebe/php-openapi": "^0.9.3@beta",
+            "fzaninotto/faker": "^1.8",
+            "php": ">=7.1.0",
+            "yiisoft/yii2": "~2.0.15",
+            "yiisoft/yii2-gii": "~2.0.0 | ~2.1.0"
+        },
+        "require-dev": {
+            "cebe/indent": "*",
+            "friendsofphp/php-cs-fixer": "~2.13.1",
+            "phpunit/phpunit": "^6.5"
+        },
+        "time": "2019-03-22T16:07:59+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "cebe\\yii2openapi\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Carsten Brandt",
+                "email": "mail@cebe.cc",
+                "homepage": "https://cebe.cc/",
+                "role": "Creator"
+            }
+        ],
+        "description": "Generate full REST API application from OpenAPI 3 specification.",
+        "homepage": "https://github.com/cebe/yii2-openapi#readme",
+        "keywords": [
+            "openapi",
+            "rest",
+            "yii2"
         ]
     },
     {

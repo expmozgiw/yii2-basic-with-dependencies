@@ -1,0 +1,60 @@
+{
+	"name": "cebe/php-openapi",
+	"description": "READ OpenAPI yaml files and make the content accessable in PHP objects.",
+	"keywords": ["openapi"],
+	"homepage": "https://github.com/cebe/php-openapi#readme",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Carsten Brandt",
+			"email": "mail@cebe.cc",
+			"homepage": "https://cebe.cc/",
+			"role": "Creator"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/cebe/php-openapi/issues",
+		"source": "https://github.com/cebe/php-openapi"
+	},
+	"require": {
+		"php": ">=7.1.0",
+		"ext-json": "*",
+		"symfony/yaml": "^4.0"
+	},
+	"require-dev": {
+		"cebe/indent": "*",
+		"friendsofphp/php-cs-fixer": "~2.13.1",
+		"phpunit/phpunit": "^6.5",
+		"oai/openapi-specification": "3.0.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"cebe\\openapi\\": "src/"
+		}
+	},
+	"config": {
+		"platform": {
+			"php": "7.1.3"
+		}
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.0.x-dev"
+		}
+	},
+	"repositories": [
+		{
+			"type": "package",
+			"package": {
+				"name": "oai/openapi-specification",
+				"version": "3.0.2",
+				"source": {
+					"url": "https://github.com/OAI/OpenAPI-Specification",
+					"type": "git",
+					"reference": "3.0.2"
+				}
+			}
+		}
+	]
+}

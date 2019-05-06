@@ -122,6 +122,8 @@ class ComposerStaticInit0861a666fa299b122d6450c69510bf2c
         ),
         'c' => 
         array (
+            'cebe\\yii2openapi\\' => 17,
+            'cebe\\openapi\\' => 13,
             'cebe\\markdown\\' => 14,
         ),
         'W' => 
@@ -309,6 +311,14 @@ class ComposerStaticInit0861a666fa299b122d6450c69510bf2c
         'kartik\\affix\\' => 
         array (
             0 => __DIR__ . '/..' . '/kartik-v/yii2-widget-affix',
+        ),
+        'cebe\\yii2openapi\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/cebe/yii2-openapi/src',
+        ),
+        'cebe\\openapi\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/cebe/php-openapi/src',
         ),
         'cebe\\markdown\\' => 
         array (
