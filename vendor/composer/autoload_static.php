@@ -8,8 +8,8 @@ class ComposerStaticInit0861a666fa299b122d6450c69510bf2c
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
-        '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         '2cffec82183ee1cea088009cef9a6fc3' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier.composer.php',
+        '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         '25072dd6e2470089de65ae7bf11d3109' => __DIR__ . '/..' . '/symfony/polyfill-php72/bootstrap.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
@@ -82,6 +82,7 @@ class ComposerStaticInit0861a666fa299b122d6450c69510bf2c
         'y' => 
         array (
             'yii\\swiftmailer\\' => 16,
+            'yii\\jui\\' => 8,
             'yii\\gii\\' => 8,
             'yii\\faker\\' => 10,
             'yii\\debug\\' => 10,
@@ -90,6 +91,7 @@ class ComposerStaticInit0861a666fa299b122d6450c69510bf2c
             'yii\\bootstrap4\\' => 15,
             'yii\\' => 4,
             'yii2tech\\spreadsheet\\' => 21,
+            'yii2mod\\rbac\\' => 13,
         ),
         'p' => 
         array (
@@ -119,6 +121,10 @@ class ComposerStaticInit0861a666fa299b122d6450c69510bf2c
             'kartik\\base\\' => 12,
             'kartik\\alert\\' => 13,
             'kartik\\affix\\' => 13,
+        ),
+        'd' => 
+        array (
+            'dosamigos\\arrayquery\\' => 21,
         ),
         'c' => 
         array (
@@ -170,6 +176,7 @@ class ComposerStaticInit0861a666fa299b122d6450c69510bf2c
         ),
         'D' => 
         array (
+            'Dotenv\\' => 7,
             'Doctrine\\Instantiator\\' => 22,
             'DeepCopy\\' => 9,
         ),
@@ -185,6 +192,10 @@ class ComposerStaticInit0861a666fa299b122d6450c69510bf2c
         'yii\\swiftmailer\\' => 
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2-swiftmailer/src',
+        ),
+        'yii\\jui\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yiisoft/yii2-jui',
         ),
         'yii\\gii\\' => 
         array (
@@ -217,6 +228,10 @@ class ComposerStaticInit0861a666fa299b122d6450c69510bf2c
         'yii2tech\\spreadsheet\\' => 
         array (
             0 => __DIR__ . '/..' . '/yii2tech/spreadsheet/src',
+        ),
+        'yii2mod\\rbac\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/yii2mod/yii2-rbac',
         ),
         'phpDocumentor\\Reflection\\' => 
         array (
@@ -311,6 +326,10 @@ class ComposerStaticInit0861a666fa299b122d6450c69510bf2c
         'kartik\\affix\\' => 
         array (
             0 => __DIR__ . '/..' . '/kartik-v/yii2-widget-affix',
+        ),
+        'dosamigos\\arrayquery\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/2amigos/yii2-arrayquery-component/src',
         ),
         'cebe\\yii2openapi\\' => 
         array (
@@ -408,6 +427,10 @@ class ComposerStaticInit0861a666fa299b122d6450c69510bf2c
         array (
             0 => __DIR__ . '/..' . '/egulias/email-validator/EmailValidator',
         ),
+        'Dotenv\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/vlucas/phpdotenv/src',
+        ),
         'Doctrine\\Instantiator\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator',
@@ -437,6 +460,10 @@ class ComposerStaticInit0861a666fa299b122d6450c69510bf2c
             'Prophecy\\' => 
             array (
                 0 => __DIR__ . '/..' . '/phpspec/prophecy/src',
+            ),
+            'PhpOption\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/phpoption/phpoption/src',
             ),
         ),
         'H' => 

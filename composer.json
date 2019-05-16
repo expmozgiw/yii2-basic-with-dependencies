@@ -23,7 +23,9 @@
         "phpoffice/phpspreadsheet": "^1.6",
         "yii2tech/spreadsheet": "^1.0",
         "cebe/yii2-openapi": "@beta",
-        "cebe/php-openapi": "@beta"
+        "cebe/php-openapi": "@beta",
+        "yii2mod/yii2-rbac": "*",
+        "vlucas/phpdotenv": "^3.3"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.1.0",
